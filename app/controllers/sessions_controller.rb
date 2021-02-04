@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+<<<<<<< HEAD
   def new
   end
 
@@ -14,4 +15,6 @@ class SessionsController < ApplicationController
   def destroy
     session.delete :name
   end
+=======
+>>>>>>> 744a54eb2544a39dc1c097790532e548f1039826
 end
